@@ -1,0 +1,11 @@
+
+.argpd-informar .argpd-mas{
+	display: none;
+}
+
+.argpd-informar ul {
+  list-style-type: disc;  
+  color: #707070
+  padding: 10px;
+  margin: 15px 0;
+}

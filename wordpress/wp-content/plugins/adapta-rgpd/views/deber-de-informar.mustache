@@ -1,0 +1,54 @@
+{{!
+
+ Copyright (c) 2018 superadmin (email : superadmin@superadmin.es)
+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License, version 2 or, at
+ your discretion, any later version, as published by the Free
+ Software Foundation.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+}}
+
+<div class="argpd-informar">
+	<p class="argpd-informar-title"><b>Información básica sobre protección de datos</b> <a class="argpd-mas">Ver más</a></p> 
+	<ul>
+		<li><b>Responsable</b>
+			{{titular}}
+			{{^titular}}El titular del sitio{{/titular}}.
+		</li>
+		<li><b>Finalidad</b>
+			{{#deber-finalidad}}
+				{{ deber-finalidad }}
+			{{/deber-finalidad}}
+
+			{{^deber-finalidad}}
+				{{#option-comments}} Moderar los comentarios. {{/option-comments}}
+				{{#option-forms}} Responder las consultas. {{/option-forms}}
+			{{/deber-finalidad}}
+		</li>
+		<li><b>Legitimación</b> {{#option-formal}}Su{{/option-formal}}{{^option-formal}}Tu{{/option-formal}} consentimiento.</li>
+		<li><b>Destinatarios</b> 
+			{{#deber-destinatarios}}
+				{{ deber-destinatarios }}
+			{{/deber-destinatarios}}
+			
+			{{^deber-destinatarios}}
+				{{#hosting-info}}{{hosting-info}}{{/hosting-info}}{{^hosting-info}}{{titular}}{{/hosting-info}}.
+			{{/deber-destinatarios}}
+			
+		</li>
+		<li><b>Derechos</b> Acceder, rectificar y suprimir los datos.</li>
+		{{#privacidadURL}}
+		<li><b>Información Adicional</b> {{#option-formal}}Puede{{/option-formal}}{{^option-formal}}Puedes{{/option-formal}} consultar la información detallada en la <a target="_noblank" href="{{ privacidadURL }}">Política de Privacidad</a>.</li>
+		{{/privacidadURL}}
+	</ul>
+</div>

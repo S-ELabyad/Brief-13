@@ -1,0 +1,22 @@
+/* Background + Border (Border) */
+
+.argpd-informar .argpd-mas{
+	display: none;
+}
+
+.argpd-informar {  
+  border: 1px solid #d1d1d1;  
+  background-color: #fff;  
+  color: #707070;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.argpd-informar ul {
+  margin-left: 1.25rem;
+  list-style-type: disc;    
+  color: #707070;
+}
+
+
+ 

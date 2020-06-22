@@ -1,0 +1,162 @@
+/* description */
+
+.argpd-panel {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px 10px 10px 0;  
+}
+
+.description {
+  font-weight: normal;
+}
+
+/* argpd UI */
+
+.argpd-view {
+padding-left: 40px;
+}
+
+.argpd-switch {
+  position: relative;
+  display: inline-block;
+  width: 30px; 
+  height: 17px;
+  margin-right: 6px;
+}
+
+/* Hide default HTML checkbox */
+.argpd-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.argpd-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.argpd-slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px; 
+  bottom: 2px; 
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .argpd-slider {
+  background-color: #00C853;
+}
+
+input:focus + .argpd-slider {
+  box-shadow: 0 0 1px #00C853;
+}
+
+input:checked + .argpd-slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.argpd-slider.argpd-round {
+  border-radius: 34px;
+}
+
+.argpd-slider.argpd-round:before {
+  border-radius: 50%;
+}
+
+
+div.argpd-message {
+    border-left-color: #ef8f1d;
+}
+
+.argpd-message {
+  background: #fff;
+  border-left: 4px solid #fff;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  margin: 5px 10px 2px 0px;
+  padding: 1px 12px;
+}
+
+.oculto{
+  display: none;  
+}
+
+
+
+/* //////// banner-wrapper //////// */
+
+#banner-wrapper .banner-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#banner-wrapper .banner-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  max-width: 540px;
+  margin-left: 2.5em;
+}
+
+#banner-wrapper .banner-card {
+  padding: 0;
+  border: 0;    
+  background-color: white;
+  border-radius: 1em;   
+  justify-content: center;  
+}
+
+#banner-wrapper .banner-card img {
+  max-width: 540px;
+}
+
+#banner-wrapper .banner-card .banner-text {
+  justify-content: center;
+  padding: 1em 1em 2.5em 1em;
+  margin-left: 2em;
+  color: #52768f;"
+}
+
+#banner-wrapper .banner-card .banner-text h2 {
+  color: #4F748E;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+#banner-wrapper .banner-card .banner-text p {
+  margin: 0 2.5em 1em 0;
+  line-height: 1.6;
+  padding: 0;
+}
+
+#banner-wrapper .banner-card .banner-text a {
+  text-decoration: none;
+}
+
+#banner-wrapper .banner-card .banner-text button {
+  margin: 2em 0;
+}
+
+.pt20-cell {
+  padding: 20px 0 0 0!important;
+}

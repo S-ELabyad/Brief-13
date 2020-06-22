@@ -1,0 +1,102 @@
+#cookies-eu-wrapper {    
+  position:relative;
+  z-index:999999;
+}
+
+#cookies-eu-banner {
+    background-color: #707070;
+    color: #fff;
+    padding: 6px;
+    font-size: 1.1em;
+    text-align: center;
+    min-height: 60px;    
+    position:fixed;
+    bottom: 0;
+    width:100%;
+    display:none;
+}
+
+#cookies-eu-accept,
+#cookies-eu-reject {
+    text-decoration: none;
+    background-color: #0080ff;     
+    color: #fff;
+    border: 1px solid #0080ff;
+    cursor: pointer;
+    padding: 20px;
+    margin: 8px 6px;
+    text-transform: uppercase;
+    font-size: 1em;
+    transition: background 0.07s, color 0.07s, border-color 0.07s;
+    letter-spacing: 0.075em;
+}
+
+#cookies-eu-more {    
+    color: #fff;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+#cookies-eu-accept {
+    padding: 10px 20px;
+}
+
+#cookies-eu-more {  
+color:707070;  
+}
+
+#cookies-eu-more:hover,
+#cookies-eu-more:focus{
+
+}
+
+#cookies-eu-accept:hover,
+#cookies-eu-accept:focus {    
+    background: #222;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+#cookies-eu-reject {
+    background: none;
+    font-weight: normal;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 2px 0;
+    border: 1px solid #fff;
+}
+#cookies-eu-reject:hover,
+#cookies-eu-reject:focus {
+    border-color: #fff;
+    background: #222;
+    color: #fff;
+}
+
+/* footer */
+.argpd-footer {
+  background-color: #333;
+  text-align: center;
+  /*position: absolute;*/
+  width: 100%;
+  color: #6d6d6d;
+}
+
+.argpd-footer ul {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.argpd-footer ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;  
+}
+
+.argpd-footer ul li a {
+  color: #999; 
+}
+
+.argpd-footer aside {
+  padding: 10px 0 0;
+}

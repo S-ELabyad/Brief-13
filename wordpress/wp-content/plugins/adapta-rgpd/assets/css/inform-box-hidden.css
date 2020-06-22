@@ -1,0 +1,16 @@
+
+
+.argpd-informar .argpd-mas{
+	cursor: pointer;
+}
+
+.argpd-informar ul {  
+	color: #707070;
+	display: none;
+	margin: 0;
+	margin: 0 0 1.5em;
+}
+
+.argpd-informar ul li {
+	display: inline;
+}

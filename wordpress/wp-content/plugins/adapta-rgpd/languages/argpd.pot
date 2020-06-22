@@ -1,0 +1,463 @@
+# Copyright (C) 2019 Adapta RGPD
+# This file is distributed under the same license as the Adapta RGPD package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Adapta RGPD 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/adapta-rgpd."
+"mount\n"
+"POT-Creation-Date: 2019-05-25 10:33:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: adapta-rgpd.php:324
+msgid ""
+"La instalaci&oacute;n no cumple los requisitos, Adapta RGPD necesita al "
+"menos PHP 5.4, y el plugin ha sido <a href=\"%s\">desactivado</a>."
+msgstr ""
+
+#: includes/class-admin.php:115 includes/class-admin.php:161
+#: includes/class-admin.php:238
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/class-admin.php:130
+msgid "No tienes permisos."
+msgstr ""
+
+#: includes/class-admin.php:273
+msgid "Settings"
+msgstr ""
+
+#: includes/class-integration.php:195
+msgid "Para poder comentar debes aceptar la política de privacidad."
+msgstr ""
+
+#: includes/class-integration.php:263
+msgid "Menú para los textos legales - RGPD"
+msgstr ""
+
+#: includes/class-integration.php:284 includes/class-ui.php:772
+msgid "Aviso Legal"
+msgstr ""
+
+#: includes/class-integration.php:289 includes/class-ui.php:835
+msgid "Política de Privacidad"
+msgstr ""
+
+#: includes/class-integration.php:294 includes/class-ui.php:904
+msgid "Política de Cookies"
+msgstr ""
+
+#: includes/class-settings.php:145
+msgid "Simple"
+msgstr ""
+
+#: includes/class-settings.php:146
+msgid "Con borde"
+msgstr ""
+
+#: includes/class-settings.php:147
+msgid "Borde + Números"
+msgstr ""
+
+#: includes/class-settings.php:151
+msgid "Clásico"
+msgstr ""
+
+#: includes/class-settings.php:152
+msgid "Clásico en parte superior"
+msgstr ""
+
+#: includes/class-settings.php:153
+msgid "Moderno Claro"
+msgstr ""
+
+#: includes/class-settings.php:154
+msgid "Moderno Oscuro"
+msgstr ""
+
+#: includes/class-settings.php:158
+msgid "Argentina"
+msgstr ""
+
+#: includes/class-settings.php:159
+msgid "Colombia"
+msgstr ""
+
+#: includes/class-settings.php:160
+msgid "Chile"
+msgstr ""
+
+#: includes/class-settings.php:161
+msgid "Ecuador"
+msgstr ""
+
+#: includes/class-settings.php:162
+msgid "España"
+msgstr ""
+
+#: includes/class-settings.php:163
+msgid "Francia"
+msgstr ""
+
+#: includes/class-settings.php:164
+msgid "Guatemala"
+msgstr ""
+
+#: includes/class-settings.php:165
+msgid "México"
+msgstr ""
+
+#: includes/class-settings.php:166
+msgid "Perú"
+msgstr ""
+
+#: includes/class-settings.php:167
+msgid "Venezuela"
+msgstr ""
+
+#: includes/class-settings.php:218
+msgid "Aceptar"
+msgstr ""
+
+#: includes/class-settings.php:223 includes/class-ui.php:780
+#: includes/class-ui.php:843 includes/class-ui.php:913
+msgid "Ver"
+msgstr ""
+
+#: includes/class-ui.php:161
+msgid "cargando..."
+msgstr ""
+
+#: includes/class-ui.php:211 includes/class-ui.php:265
+msgid "Titular"
+msgstr ""
+
+#: includes/class-ui.php:243
+msgid "Sobre el Titular"
+msgstr ""
+
+#: includes/class-ui.php:277
+msgid "Nombre y apellidos del titular o razón"
+msgstr ""
+
+#: includes/class-ui.php:278
+msgid "social si es una empresa."
+msgstr ""
+
+#: includes/class-ui.php:292
+msgid "Identificador fiscal"
+msgstr ""
+
+#: includes/class-ui.php:293
+msgid "NIF"
+msgstr ""
+
+#: includes/class-ui.php:314
+msgid "Datos del"
+msgstr ""
+
+#: includes/class-ui.php:315
+msgid "Colegio Profesional"
+msgstr ""
+
+#: includes/class-ui.php:329
+msgid "Opcional."
+msgstr ""
+
+#: includes/class-ui.php:337
+msgid "Domicilio"
+msgstr ""
+
+#: includes/class-ui.php:388
+msgid "Correo electrónico"
+msgstr ""
+
+#: includes/class-ui.php:389
+msgid "de contacto"
+msgstr ""
+
+#: includes/class-ui.php:401
+msgid "Es la dirección de contacto dónde ejercen"
+msgstr ""
+
+#: includes/class-ui.php:402
+msgid "sus derechos los usuarios."
+msgstr ""
+
+#: includes/class-ui.php:415
+msgid "Sobre el sitio Web"
+msgstr ""
+
+#. translators: en el contexto: Dirección web del sitio
+#: includes/class-ui.php:429
+msgid "Dirección web"
+msgstr ""
+
+#: includes/class-ui.php:430
+msgid "del sitio"
+msgstr ""
+
+#: includes/class-ui.php:444
+msgid "Finalidad"
+msgstr ""
+
+#: includes/class-ui.php:457
+msgid "Por ejemplo, tienda de venta de zapatos."
+msgstr ""
+
+#: includes/class-ui.php:468
+msgid "Proveedor del"
+msgstr ""
+
+#: includes/class-ui.php:469
+msgid "alojamiento web"
+msgstr ""
+
+#: includes/class-ui.php:486
+msgid "Servicios de Terceros"
+msgstr ""
+
+#: includes/class-ui.php:488
+msgid "Marca los servicios que utilices"
+msgstr ""
+
+#: includes/class-ui.php:523
+msgid "Redes Sociales"
+msgstr ""
+
+#: includes/class-ui.php:571
+msgid "Programa de Afiliados de Amazon de la UE"
+msgstr ""
+
+#: includes/class-ui.php:601
+msgid "Más Ajustes"
+msgstr ""
+
+#: includes/class-ui.php:607
+msgid "Cláusulas"
+msgstr ""
+
+#: includes/class-ui.php:609
+msgid "Marca para activar"
+msgstr ""
+
+#: includes/class-ui.php:621
+msgid "Reservar el Derecho de exclusión"
+msgstr ""
+
+#: includes/class-ui.php:634
+msgid "Cesión de datos a terceros"
+msgstr ""
+
+#: includes/class-ui.php:649
+msgid "Requisito mayoría edad"
+msgstr ""
+
+#: includes/class-ui.php:667
+msgid ""
+"Datos especialmente protegidos: médicos, religiosos, orientación sexual..."
+msgstr ""
+
+#: includes/class-ui.php:682
+msgid "Permitir la Portabilidad de datos"
+msgstr ""
+
+#: includes/class-ui.php:712
+msgid "Integración"
+msgstr ""
+
+#: includes/class-ui.php:734
+msgid "Páginas Legales"
+msgstr ""
+
+#: includes/class-ui.php:739
+msgid "Activa o desactiva cada texto legal y escoge en que página aparece."
+msgstr ""
+
+#: includes/class-ui.php:752
+msgid "Texto Legal"
+msgstr ""
+
+#: includes/class-ui.php:753
+msgid "Página"
+msgstr ""
+
+#: includes/class-ui.php:755 includes/class-ui.php:1365
+#: includes/class-ui.php:1384
+msgid "Ayuda"
+msgstr ""
+
+#: includes/class-ui.php:964
+msgid "Deber de Informar"
+msgstr ""
+
+#: includes/class-ui.php:1000
+msgid "Tratamiento de usted"
+msgstr ""
+
+#: includes/class-ui.php:1003
+msgid "Por defecto los textos aparecen escritos de forma familiar o de tú."
+msgstr ""
+
+#: includes/class-ui.php:1017
+msgid "Las páginas legales aparecen en buscadores (Google, Bing...)"
+msgstr ""
+
+#: includes/class-ui.php:1027
+msgid "No recomendado."
+msgstr ""
+
+#: includes/class-ui.php:1040
+msgid "Consentimiento y Deber de Informar"
+msgstr ""
+
+#: includes/class-ui.php:1042
+msgid ""
+"Este apartado sirve para cumplir el deber de informar. Aprende los conceptos "
+"que necesitas en"
+msgstr ""
+
+#: includes/class-ui.php:1046
+msgid "esta guía."
+msgstr ""
+
+#: includes/class-ui.php:1055
+msgid "Activar en"
+msgstr ""
+
+#: includes/class-ui.php:1066
+msgid "Comentarios "
+msgstr ""
+
+#: includes/class-ui.php:1069
+msgid ""
+"Añade una casilla para obtener el consentimiento y mostrar la primera capa "
+"informativa."
+msgstr ""
+
+#: includes/class-ui.php:1080
+msgid "Formularios"
+msgstr ""
+
+#: includes/class-ui.php:1087
+msgid "Guía para adecuar los formularios"
+msgstr ""
+
+#: includes/class-ui.php:1099
+msgid "Pie de página"
+msgstr ""
+
+#: includes/class-ui.php:1107
+msgid "Crea un pie de página con enlaces a los textos legales."
+msgstr ""
+
+#: includes/class-ui.php:1110
+msgid "Añade más enlaces"
+msgstr ""
+
+#: includes/class-ui.php:1120
+msgid "Texto para el consentimiento"
+msgstr ""
+
+#: includes/class-ui.php:1131 includes/class-ui.php:1217
+msgid "Para mostrar el texto por defecto deja en blanco."
+msgstr ""
+
+#: includes/class-ui.php:1143
+msgid "Código para la"
+msgstr ""
+
+#: includes/class-ui.php:1144
+msgid "capa informativa:"
+msgstr ""
+
+#: includes/class-ui.php:1154
+msgid "Pega este código en tus formularios para que"
+msgstr ""
+
+#: includes/class-ui.php:1155
+msgid "aparezca la primera capa informativa."
+msgstr ""
+
+#: includes/class-ui.php:1172
+msgid "Ley de Cookies"
+msgstr ""
+
+#: includes/class-ui.php:1174
+msgid "Este apartado sirve para cumplir la ley de Cookies."
+msgstr ""
+
+#: includes/class-ui.php:1188
+msgid "Activar"
+msgstr ""
+
+#: includes/class-ui.php:1198
+msgid "Banner de Cookies "
+msgstr ""
+
+#: includes/class-ui.php:1205
+msgid "Texto en el banner"
+msgstr ""
+
+#: includes/class-ui.php:1223
+msgid "Texto del bot&oacute;n Aceptar"
+msgstr ""
+
+#: includes/class-ui.php:1236
+msgid "Texto del enlace Ver"
+msgstr ""
+
+#: includes/class-ui.php:1252
+msgid "Enlace Ver"
+msgstr ""
+
+#: includes/class-ui.php:1291
+msgid "Estilo y diseño"
+msgstr ""
+
+#: includes/class-ui.php:1302
+msgid "Tema"
+msgstr ""
+
+#: includes/class-ui.php:1329
+msgid "Listas"
+msgstr ""
+
+#: includes/class-ui.php:1411
+msgid "Algo fue mal."
+msgstr ""
+
+#: includes/class-ui.php:1417
+msgid "Los cambios se han guardado."
+msgstr ""
+
+#: includes/class-ui.php:1420
+msgid "La página ya existe."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Adapta RGPD"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://superadmin.es/adapta-rgpd"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Te sirve para crear tus textos legales adecuados a las regulaciones europeas "
+"de privacidad RGPD y la LOPD de España."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Superadmin"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://superadmin.es"
+msgstr ""

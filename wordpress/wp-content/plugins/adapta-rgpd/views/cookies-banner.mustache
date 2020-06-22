@@ -1,0 +1,39 @@
+{{!
+
+ Copyright (c) 2018 superadmin (email : superadmin@superadmin.es)
+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License, version 2 or, at
+ your discretion, any later version, as published by the Free
+ Software Foundation.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+}}
+
+<div id="cookies-eu-wrapper">
+    <div 
+      id="cookies-eu-banner"       
+      data-wait-remove="250"
+      >
+      {{^cookies-label}}
+        Esta web utiliza cookies{{# cookiesURL }}, {{#option-formal}}puede{{/option-formal}}{{^option-formal}}puedes{{/option-formal}} ver aquí la <a class="argpd-cookies-politica" rel="nofollow" target="_blank" id="cookies-eu-more" href="{{ cookiesURL }}">Política de Cookies</a>{{/ cookiesURL }}
+      {{/cookies-label}}
+
+      {{#cookies-label}}
+        {{cookies-label}} 
+          &nbsp;&nbsp;
+          {{# cookiesURL }}<a target="_blank" id="cookies-eu-more" rel="nofollow" href="{{ cookiesURL }}">{{cookies-linklabel}}</a>{{/ cookiesURL }}
+      {{/cookies-label}}
+
+        <button id="cookies-eu-reject">{{ cookies-rejectlabel }}</button>
+        <button id="cookies-eu-accept">{{ cookies-btnlabel }}</button>
+    </div>
+</div>

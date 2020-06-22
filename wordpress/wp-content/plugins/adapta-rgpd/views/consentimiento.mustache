@@ -1,0 +1,43 @@
+{{!
+
+ Copyright (c) 2018 superadmin (email : superadmin@superadmin.es)
+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License, version 2 or, at
+ your discretion, any later version, as published by the Free
+ Software Foundation.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+}}
+
+<p class="argpd-consentimiento">
+	<label>
+		<input style="width:inherit" type="checkbox" name="agdpr-consentimiento" id="agdpr-consentimiento" value="1"> 
+
+		{{^consentimiento-label}} 
+			{{#privacidadURL}} 
+				He leído y acepto la <a rel="nofollow" target="_noblank" href="{{ privacidadURL }}">política de privacidad</a>.
+			{{/privacidadURL}}
+	
+			{{^privacidadURL}} 			
+				Acepto la política de privacidad.			
+			{{/privacidadURL}}
+		{{/consentimiento-label}} 
+
+		{{#consentimiento-label}} 
+			{{consentimiento-label}} 
+			{{#privacidadURL}} 
+				<a rel="nofollow" target="_noblank" href="{{ privacidadURL }}">{{cookies-linklabel}}</a>.
+			{{/privacidadURL}}
+		{{/consentimiento-label}} 
+
+	</label>
+</p>

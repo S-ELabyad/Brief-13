@@ -1,0 +1,99 @@
+.wc-block-product-categories {
+  margin-bottom: 1em;
+}
+
+.wc-block-product-categories.is-dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wc-block-product-categories select {
+  margin-right: 0.5em;
+}
+
+.wc-block-product-categories-list-item-count::before {
+  content: " (";
+}
+
+.wc-block-product-categories-list-item-count::after {
+  content: ")";
+}
+
+.wp-block-woocommerce-product-categories.is-loading .wc-block-product-categories__placeholder {
+  display: inline-block;
+  height: 1em;
+  width: 50%;
+  min-width: 200px;
+  background: currentColor;
+  opacity: 0.2;
+}
+
+.wc-block-product-categories__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  background: none;
+  padding: 8px;
+  color: #555d66;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.wc-block-product-categories__button svg {
+  fill: currentColor;
+  outline: none;
+}
+
+.rtl .wc-block-product-categories__button svg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.wc-block-product-categories__button:active {
+  color: currentColor;
+}
+
+.wc-block-product-categories__button:disabled, .wc-block-product-categories__button[aria-disabled="true"] {
+  cursor: default;
+  opacity: 0.3;
+}
+
+.wc-block-product-categories__button:focus:enabled {
+  background-color: #fff;
+  color: #191e23;
+  -webkit-box-shadow: inset 0 0 0 1px #6c7781, inset 0 0 0 2px #fff;
+          box-shadow: inset 0 0 0 1px #6c7781, inset 0 0 0 2px #fff;
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+}
+
+.wc-block-product-categories__button:not(:disabled):not([aria-disabled="true"]):hover {
+  background-color: #fff;
+  color: #191e23;
+  -webkit-box-shadow: inset 0 0 0 1px #e2e4e7, inset 0 0 0 2px #fff, 0 1px 1px rgba(25, 30, 35, 0.2);
+          box-shadow: inset 0 0 0 1px #e2e4e7, inset 0 0 0 2px #fff, 0 1px 1px rgba(25, 30, 35, 0.2);
+}
+
+.wc-block-product-categories__button:not(:disabled):not([aria-disabled="true"]):active {
+  outline: none;
+  background-color: #fff;
+  color: #191e23;
+  -webkit-box-shadow: inset 0 0 0 1px #ccd0d4, inset 0 0 0 2px #fff;
+          box-shadow: inset 0 0 0 1px #ccd0d4, inset 0 0 0 2px #fff;
+}
+
+.wc-block-product-categories__button[aria-disabled="true"]:focus, .wc-block-product-categories__button:disabled:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=style.css.map */

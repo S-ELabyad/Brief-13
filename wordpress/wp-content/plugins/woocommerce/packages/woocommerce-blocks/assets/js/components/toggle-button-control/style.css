@@ -1,0 +1,15 @@
+.components-toggle-button-control .components-base-control__field {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.components-toggle-button-control .components-toggle-button-control__label {
+  width: 100%;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.components-toggle-button-control .components-base-control__help {
+  margin-top: 0;
+}
+/*# sourceMappingURL=style.css.map */

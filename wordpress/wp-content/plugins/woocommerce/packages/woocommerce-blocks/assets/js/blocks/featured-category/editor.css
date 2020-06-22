@@ -1,0 +1,17 @@
+.wc-block-featured-category.components-placeholder {
+  background-color: rgba(139, 139, 150, 0.1);
+}
+
+.wc-block-featured-category .components-resizable-box__handle {
+  z-index: 10;
+}
+
+.wc-block-featured-category .components-placeholder__label svg {
+  fill: currentColor;
+  margin-right: 1ch;
+}
+
+.wc-block-featured-category__selection {
+  width: 100%;
+}
+/*# sourceMappingURL=editor.css.map */
