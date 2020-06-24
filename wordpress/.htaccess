@@ -1,15 +1,15 @@
 
 # BEGIN WordPress
-# Les directives (lignes) entre 'BEGIN WordPress' et 'END WordPress' sont
-# généré dynamiquement, et ne doivent uniquement être modifiées via les filtres WordPress.
-# Toute modification des directives entre ces marqueurs sera outrepassée.
+# The directives (lines) between `BEGIN WordPress` and `END WordPress` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /brief-12/wordpress/
+RewriteBase /Brief-13/wordpress/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /brief-12/wordpress/index.php [L]
+RewriteRule . /Brief-13/wordpress/index.php [L]
 </IfModule>
 
 # END WordPress

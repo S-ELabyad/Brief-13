@@ -2782,7 +2782,7 @@ msgid "Privacy Policy Page"
 msgstr "Page de politique de confidentialité"
 
 #. translators: %s: Page title.
-#: wp-admin/includes/misc.php:1385
+#: wp-admin/includes/misc.php:1408
 msgid "%s (Draft)"
 msgstr "%s (Brouillon)"
 
@@ -6023,7 +6023,7 @@ msgstr ""
 
 #. translators: Do not translate USERNAME, ADMIN_URL, EMAIL, SITENAME, SITEURL:
 #. those are placeholders.
-#: wp-admin/includes/misc.php:1306
+#: wp-admin/includes/misc.php:1329
 msgid ""
 "Howdy ###USERNAME###,\n"
 "\n"
@@ -7577,7 +7577,7 @@ msgid "You cannot move this item to the Trash. %s is currently editing."
 msgstr "Vous ne pouvez pas déplacer cet élément dans la corbeille. %s est en train de le modifier."
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/misc.php:1075
+#: wp-admin/includes/misc.php:1098
 msgid "%s has taken over and is currently editing."
 msgstr "%s a pris la main et modifie actuellement ce contenu."
 
@@ -7631,7 +7631,7 @@ msgid "The Documentation menu below the editor lists the PHP functions recognize
 msgstr "Le menu « Documentation », situé sous l’éditeur, liste les fonctions PHP reconnues dans le fichier de l’extension. En cliquant sur « Consulter », vous serez envoyé sur une page web documentant cette fonction."
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/misc.php:1025
+#: wp-admin/includes/misc.php:1048
 #: wp-admin/includes/class-wp-posts-list-table.php:1003
 msgid "%s is currently editing"
 msgstr "%s modifie actuellement ce contenu"
@@ -8375,7 +8375,7 @@ msgstr[1] "Mis en pause <span class=\"count\">(%s)</span>"
 
 #. translators: New admin email address notification email subject. %s: Site
 #. title.
-#: wp-admin/includes/misc.php:1359
+#: wp-admin/includes/misc.php:1382
 msgid "[%s] New Admin Email Address"
 msgstr "[%s] Nouvelle adresse e-mail d’administration"
 
@@ -10900,7 +10900,7 @@ msgstr "Widgets disponibles"
 msgid "Error in displaying the widget settings form."
 msgstr "Une erreur est survenue lors de l’affichage du formulaire de réglage du widget."
 
-#: wp-admin/includes/misc.php:1195 wp-admin/includes/post.php:1941
+#: wp-admin/includes/misc.php:1218 wp-admin/includes/post.php:1941
 #: wp-admin/widgets.php:378
 msgid "Error while saving."
 msgstr "Erreur lors de la sauvegarde."
@@ -11043,7 +11043,7 @@ msgstr "Prénom"
 msgid "Enable keyboard shortcuts for comment moderation."
 msgstr "Activer les raccourcis clavier pour la modération de commentaires."
 
-#: wp-admin/includes/misc.php:924 wp-admin/user-edit.php:295
+#: wp-admin/includes/misc.php:947 wp-admin/user-edit.php:295
 msgid "Admin Color Scheme"
 msgstr "Couleurs de l’interface d’administration"
 
@@ -13866,12 +13866,12 @@ msgid "Someone"
 msgstr "Quelqu’un"
 
 #. translators: %s: Date and time.
-#: wp-admin/includes/misc.php:1203
+#: wp-admin/includes/misc.php:1226
 msgid "Draft saved at %s."
 msgstr "Brouillon enregistré à %s."
 
 #. translators: Draft saved date format, see https://www.php.net/date
-#: wp-admin/includes/misc.php:1199
+#: wp-admin/includes/misc.php:1222
 msgid "g:i:s a"
 msgstr "G \\h i \\m\\i\\n s \\s"
 

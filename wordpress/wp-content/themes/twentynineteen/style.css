@@ -2532,6 +2532,17 @@ h2:before {
   width: 1em;
 }
 
+h1:not(.site-title).has-text-align-center:before,
+h2.has-text-align-center:before {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1:not(.site-title).has-text-align-right:before,
+h2.has-text-align-right:before {
+  margin-left: auto;
+}
+
 hr {
   background-color: #767676;
   border: 0;
@@ -4245,6 +4256,15 @@ body.page .main-navigation {
   width: 1em;
 }
 
+.entry .entry-title.has-text-align-center:before {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.entry .entry-title.has-text-align-right:before {
+  margin-left: auto;
+}
+
 .entry .entry-title a {
   color: inherit;
 }
@@ -4532,6 +4552,15 @@ body.page .main-navigation {
   width: 1em;
 }
 
+.author-bio .author-title.has-text-align-center:before {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.author-bio .author-title.has-text-align-right:before {
+  margin-left: auto;
+}
+
 .author-bio .author-description {
   display: inline;
   color: #767676;
@@ -4629,6 +4658,15 @@ body.page .main-navigation {
   height: 2px;
   margin: 1rem 0;
   width: 1em;
+}
+
+.comments-area .comments-title-wrap .comments-title.has-text-align-center:before {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comments-area .comments-title-wrap .comments-title.has-text-align-right:before {
+  margin-left: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -5131,6 +5169,10 @@ body.page .main-navigation {
 .widget {
   margin: 0 0 1rem;
   /* Make sure select elements fit in widgets. */
+}
+
+.widget .widget-title {
+  font-size: 1.6875em;
 }
 
 .widget select {
