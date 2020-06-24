@@ -48,7 +48,7 @@ add_action('admin_menu','my_admin_menu');
 
 function my_admin_menu(){
   //add_menu_page('Page title', 'Top-level menu title', 'manage_options', 'my-top-level-handle', 'my_magic_function');
-            add_menu_page('Footer Text title', 'Footer Settings', 'manage_options', 'footer_setting_page', 'mt_settings_page' );
+            add_menu_page('Footer Text title', 'Footer Settings', 'manage_options', 'footer_setting_page', 'mt_settings_page','dashicons-networking' );
             add_submenu_page('footer_setting_page','Page title','Sub-menu title','manage_options','child-submenu-handle','my_magic_function');
 
       }
@@ -72,4 +72,5 @@ function your_function(){
       echo "<div style='color: white;text-align: center;font-size: 17px; background-color: black; width: 100%; height: 39px;'>".get_option('footer_text')."</div>";
 }
 ?>
+
  
